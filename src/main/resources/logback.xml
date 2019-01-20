@@ -4,7 +4,9 @@
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
+        <param name="Encoding" value="UTF-8" />
     </appender>
+
     <root level="debug">
         <appender-ref ref="STDOUT"/>
     </root>

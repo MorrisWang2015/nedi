@@ -10,6 +10,8 @@
        http://www.springframework.org/schema/mvc
        http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
 
+    <!--<mvc:view-controller path="/" view-name="/WEB-INF/index.jsp" />-->
+
     <!-- 扫描web相关的bean -->
     <context:component-scan base-package="com.baoxian.controller"/>
 
